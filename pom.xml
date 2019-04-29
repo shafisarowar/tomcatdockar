@@ -33,26 +33,15 @@
 	
 	</dependencies>
 	<distributionManagement>
-		<!-- commentout existing bin
-		<snapshotRepository>
+		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://13.233.125.37:8081/repository/maven-snapshots/</url>
+		    <url>http://localhost:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://13.233.125.37:8081/repository/maven-releases/</url>
+		    <url>http://localhost:8081/repository/maven-releases/</url>
 		</repository>
-             -->
-		<snapshotRepository>
-		    <id>tomcat-snapshot</id>
-		    <url>http://localhost:8081/repository/tomcat-snapshot/</url>
-		 </snapshotRepository
-		
-		<repository>
-		    <id>tomcat-release</id>
-		    <url>http://localhost:8081/repository/tomcat-release/</url>
-		 </repository>
   	</distributionManagement>
 	
 <build>
