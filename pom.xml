@@ -42,6 +42,13 @@
 		    <id>nexus</id>
 		    <url>http://13.233.125.37:8081/repository/maven-releases/</url>
 		</repository>
+		
+		<snapshotRepository>
+		    <id>TomcatDockerProject1</id>
+			<name>TomcatDockerproject</name>
+		    <url>http://localhost:8081/repository/TomcatDockerProject1/</url>
+		 </snapshotRepository>
+		
   	</distributionManagement>
 	
 <build>
