@@ -46,16 +46,12 @@
              -->
 		<snapshotRepository>
 		    <id>tomcat-snapshot</id>
-			<name>tomcat-snapshot</name>
 		    <url>http://localhost:8081/repository/tomcat-snapshot/</url>
-		    <layout>default</layout>
 		 </snapshotRepository
 		
 		<repository>
 		    <id>tomcat-release</id>
-			<name>tomcat-release</name>
 		    <url>http://localhost:8081/repository/tomcat-release/</url>
-		    <layout>default</layout>
 		 </repository>
   	</distributionManagement>
 	
