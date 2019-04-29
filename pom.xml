@@ -33,7 +33,7 @@
 	
 	</dependencies>
 	<distributionManagement>
-		<!----commentout existing bin
+		<!-- commentout existing bin
 		<snapshotRepository>
 		    <id>nexus</id>
 		    <url>http://13.233.125.37:8081/repository/maven-snapshots/</url>
