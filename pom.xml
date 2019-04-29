@@ -44,13 +44,12 @@
 		    <url>http://13.233.125.37:8081/repository/maven-releases/</url>
 		</repository>
              -->
-		
-		<snapshotRepository>
+		<repository>
 		    <id>TomcatDockerProject1</id>
-			<name>TomcatDockerproject</name>
+			<name>TomcatDockerProject1</name>
 		    <url>http://localhost:8081/repository/TomcatDockerProject1/</url>
-		 </snapshotRepository>
-		
+		    <layout>default</layout>
+		 </repository>
   	</distributionManagement>
 	
 <build>
